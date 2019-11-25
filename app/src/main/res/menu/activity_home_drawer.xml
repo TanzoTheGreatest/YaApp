@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_learn"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="Learn" />
+        <item
+            android:id="@+id/nav_marks"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Marks" />
+        <item
+            android:id="@+id/nav_subjects"
+            android:icon="@android:drawable/btn_star"
+            android:title="My Subjects" />
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Calender" />
+        <item
+            android:id="@+id/nav_noticeboard"
+            android:icon="@android:drawable/stat_notify_more"
+            android:title="Noticeboard" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@android:drawable/stat_notify_chat"
+                android:title="Chat" />
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="Email" />
+            <item
+                android:id="@+id/nav_assignment"
+                android:icon="@android:drawable/ic_menu_upload"
+                android:title="Upload Assignment" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/btn_dialog"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
